@@ -7,7 +7,7 @@ body {
 }
 /* *************nav********************* */
 header {
-  background-image: url(grille.png);
+  background-image: url(media/grille.png);
   height: 200px;
 }
 .logo {
@@ -45,7 +45,7 @@ h3 {
   margin-top: 15px;
 }
 .border {
-  background-image: url(transparent.png);
+  background-image: url(media/transparent.png);
   border-bottom: 1px solid #eee;
   height: 13px;
 }
@@ -89,16 +89,16 @@ iframe {
   border: none;
 }
 .transp {
-  background-image: url(transparent.png);
+  background-image: url(media/transparent.png);
   height: 35px;
 }
 .transp1 {
-  background-image: url(transparent.png);
+  background-image: url(media/transparent.png);
   height: 30px;
 }
 .par {
   font-size: x-large;
-  background: url(grille.png);
+  background: url(media/grille.png);
   justify-content: center;
   align-items: center;
   color: #808080;
@@ -112,11 +112,11 @@ iframe {
   border-bottom: 1px solid #eee;
 }
 .trans3 {
-  background-image: url(transparent.png);
+  background-image: url(media/transparent.png);
   height: 25px;
 }
 .trans4 {
-  background-image: url(transparent.png);
+  background-image: url(media/transparent.png);
   height: 30px;
 }
 .bord {
@@ -167,7 +167,7 @@ iframe {
 }
 /* ************************fooooterµ********************************************* */
 .section2 {
-  background-image: url(grille.png);
+  background-image: url(media/grille.png);
   border-bottom: 1px solid #eee;
   border-top: 1px solid #eee;
 }
@@ -228,11 +228,11 @@ h5 {
   text-decoration: underline;
 }
 .trans5 {
-  background-image: url(transparent.png);
+  background-image: url(media/transparent.png);
   height: 15px;
 }
 .trans6 {
-  background-image: url(transparent.png);
+  background-image: url(media/transparent.png);
   height: 15px;
 }
 

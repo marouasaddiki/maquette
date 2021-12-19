@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Chambre</title>
+    <style>
+        html{
+            font-family: 'Oswald';
+        }
+        #contenu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px 5%;
+        }
+        #titrePrincipale{
+            text-align: center;
+            color: rosybrown;
+            font-size: 4em;
+        }
+        img{
+            border-radius: 10px;
+            box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+        }
+        img:hover{
+            opacity: 0.5;
+            transform: scale(1.05);
+            transition: 0.6s ease-in-out;
+        }
+        #typeChambre{
+            background-color: antiquewhite;
+            text-align: center;
+            font-size: 1.8em;
+            margin: 15px;  
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 30px 10%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="titrePrincipale">
+        <h1> Les Chambres</h1>
+    </div>
+    <section>
+        <div id="typeChambre">
+        <div>
+            <h2>Chambre </h2>
+            <img src="media/abc.jpg" alt="chambre" width="400px" height="220px">
+            <img src="media/abc2.jpg" alt="chambre"width="400px" height="220px">
+            <img src="media/abc3.jpg" alt="chambre" width="400px" height="220px">
+            <img src="media/abc4.jpg" alt="chambre" width="400px" height="220px">
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div id="contenu">       
+<div>
+        <h4>Chambre d’hôtel</h4>
+       <p>Vous profiterez d’une chambre privée avec toutes les installations de l’hôtel</p>
+</div>
+<div>
+        <h4>Services inclus</h4>
+        <p>L’hébergement inclut ces services gratuits : WiFi et Parking </p>
+</div>
+<div>
+        <h4>Propre et bien rangé</h4>
+        <p>Cet hébergement propose de nombreux services de nettoyage</p>
+</div>
+        </div>
+    </footer>
+
+</body>
+</html>
